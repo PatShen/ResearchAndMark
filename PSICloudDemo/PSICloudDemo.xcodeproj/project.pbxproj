@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE15377214A8B5400D79343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE15376214A8B5400D79343 /* AppDelegate.m */; };
+		8CE1537A214A8B5400D79343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE15379214A8B5400D79343 /* ViewController.m */; };
+		8CE1537D214A8B5400D79343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE1537B214A8B5400D79343 /* Main.storyboard */; };
+		8CE1537F214A8B5800D79343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE1537E214A8B5800D79343 /* Assets.xcassets */; };
+		8CE15382214A8B5800D79343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE15380214A8B5800D79343 /* LaunchScreen.storyboard */; };
+		8CE15385214A8B5800D79343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE15384214A8B5800D79343 /* main.m */; };
+		8CE1538F214AA3A300D79343 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE1538E214AA3A300D79343 /* MobileCoreServices.framework */; };
+		DF6B1F7CB90A6ABA91A934BE /* libPods-PSICloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B24DFAEE59F63065BC41CC4 /* libPods-PSICloudDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B24DFAEE59F63065BC41CC4 /* libPods-PSICloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PSICloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C8716C994EFCA0800D689E /* Pods-PSICloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSICloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSICloudDemo/Pods-PSICloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE15372214A8B5400D79343 /* PSICloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSICloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE15375214A8B5400D79343 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CE15376214A8B5400D79343 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CE15378214A8B5400D79343 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CE15379214A8B5400D79343 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CE1537C214A8B5400D79343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE1537E214A8B5800D79343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE15381214A8B5800D79343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE15383214A8B5800D79343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE15384214A8B5800D79343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CE1538B214A971100D79343 /* PSICloudDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PSICloudDemo.entitlements; sourceTree = "<group>"; };
+		8CE1538E214AA3A300D79343 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		97148D9D9B55DAC6CAFF9140 /* Pods-PSICloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSICloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSICloudDemo/Pods-PSICloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE1536F214A8B5400D79343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE1538F214AA3A300D79343 /* MobileCoreServices.framework in Frameworks */,
+				DF6B1F7CB90A6ABA91A934BE /* libPods-PSICloudDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073607CD65E264C58163C1D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36C8716C994EFCA0800D689E /* Pods-PSICloudDemo.debug.xcconfig */,
+				97148D9D9B55DAC6CAFF9140 /* Pods-PSICloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CE15369214A8B5400D79343 = {
+			isa = PBXGroup;
+			children = (
+				8CE15374214A8B5400D79343 /* PSICloudDemo */,
+				8CE15373214A8B5400D79343 /* Products */,
+				073607CD65E264C58163C1D8 /* Pods */,
+				9A5AABBFF49CA6A1C166F1F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE15373214A8B5400D79343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE15372214A8B5400D79343 /* PSICloudDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE15374214A8B5400D79343 /* PSICloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8CE1538B214A971100D79343 /* PSICloudDemo.entitlements */,
+				8CE15375214A8B5400D79343 /* AppDelegate.h */,
+				8CE15376214A8B5400D79343 /* AppDelegate.m */,
+				8CE15378214A8B5400D79343 /* ViewController.h */,
+				8CE15379214A8B5400D79343 /* ViewController.m */,
+				8CE1537B214A8B5400D79343 /* Main.storyboard */,
+				8CE1537E214A8B5800D79343 /* Assets.xcassets */,
+				8CE15380214A8B5800D79343 /* LaunchScreen.storyboard */,
+				8CE15383214A8B5800D79343 /* Info.plist */,
+				8CE15384214A8B5800D79343 /* main.m */,
+			);
+			path = PSICloudDemo;
+			sourceTree = "<group>";
+		};
+		9A5AABBFF49CA6A1C166F1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE1538E214AA3A300D79343 /* MobileCoreServices.framework */,
+				1B24DFAEE59F63065BC41CC4 /* libPods-PSICloudDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE15371214A8B5400D79343 /* PSICloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE15388214A8B5800D79343 /* Build configuration list for PBXNativeTarget "PSICloudDemo" */;
+			buildPhases = (
+				1737C2466A3FB851ACCC2D55 /* [CP] Check Pods Manifest.lock */,
+				8CE1536E214A8B5400D79343 /* Sources */,
+				8CE1536F214A8B5400D79343 /* Frameworks */,
+				8CE15370214A8B5400D79343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSICloudDemo;
+			productName = PSICloudDemo;
+			productReference = 8CE15372214A8B5400D79343 /* PSICloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE1536A214A8B5400D79343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "NanJing HOGE Software Co., Ltd.";
+				TargetAttributes = {
+					8CE15371214A8B5400D79343 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8CE1536D214A8B5400D79343 /* Build configuration list for PBXProject "PSICloudDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE15369214A8B5400D79343;
+			productRefGroup = 8CE15373214A8B5400D79343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE15371214A8B5400D79343 /* PSICloudDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE15370214A8B5400D79343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE15382214A8B5800D79343 /* LaunchScreen.storyboard in Resources */,
+				8CE1537F214A8B5800D79343 /* Assets.xcassets in Resources */,
+				8CE1537D214A8B5400D79343 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1737C2466A3FB851ACCC2D55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSICloudDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE1536E214A8B5400D79343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE1537A214A8B5400D79343 /* ViewController.m in Sources */,
+				8CE15385214A8B5800D79343 /* main.m in Sources */,
+				8CE15377214A8B5400D79343 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CE1537B214A8B5400D79343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE1537C214A8B5400D79343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE15380214A8B5800D79343 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE15381214A8B5800D79343 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE15386214A8B5800D79343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CE15387214A8B5800D79343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE15389214A8B5800D79343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C8716C994EFCA0800D689E /* Pods-PSICloudDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y4C746DW8E;
+				INFOPLIST_FILE = PSICloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoge.c;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f0ac3a2f-1765-44c4-a506-d1db430b04b8";
+				PROVISIONING_PROFILE_SPECIFIER = dev_GM;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE1538A214A8B5800D79343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97148D9D9B55DAC6CAFF9140 /* Pods-PSICloudDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PSICloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoge.c;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE1536D214A8B5400D79343 /* Build configuration list for PBXProject "PSICloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE15386214A8B5800D79343 /* Debug */,
+				8CE15387214A8B5800D79343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE15388214A8B5800D79343 /* Build configuration list for PBXNativeTarget "PSICloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE15389214A8B5800D79343 /* Debug */,
+				8CE1538A214A8B5800D79343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE1536A214A8B5400D79343 /* Project object */;
+}
